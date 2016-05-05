@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<account-persist>
+ <accounts>
+   <account>
+     <id>yu</id>
+     <email>598628744@qq.com</email>
+     <name>yubin</name>
+     <password>123456</password>
+     <activated>false</activated>
+   </account>
+ </accounts>
+</account-persist>
