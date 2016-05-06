@@ -1,14 +1,14 @@
 package com.juvenxu.mvnbook.account.captcha;
 
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
 
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.OutputStream;
 
 import org.junit.Before;
-import org.junit.Ignore;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -21,7 +21,7 @@ public class AccountCaptchaServiceTest {
 	  ApplicationContext context=new ClassPathXmlApplicationContext("account-captcha.xml");
 	  service=(AccountCaptchaService) context.getBean("accountCaptchaService");
   }
-  @Ignore
+  @Test
   public void testGenerateCaptcha()throws Exception{
 	  String captchaKey=service.generateCaptchaKey();
 	  assertNotNull(captchaKey);
