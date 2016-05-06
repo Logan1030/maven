@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<account-persist>
+  <accounts>
+    <account>
+      <id>007</id>
+      <name>yubin</name>
+      <email>598628744</email>
+      <password>123456789</password>
+      <activated>true</activated>
+    </account>
+  </accounts>
+</account-persist>

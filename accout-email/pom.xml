@@ -6,14 +6,8 @@
 		<groupId>com.juvenxu.mvnbook.account</groupId>
 		<artifactId>account-parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
-		<relativePath>../account-parent/pom.xml</relativePath>
 	</parent>
-	<!-- 项目属性 -->
-	<properties>
-		<!-- environment setting -->
-		<jdk.version>1.8</jdk.version>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-	</properties>
+	 
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -48,29 +42,5 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-    <build>
-      <plugins> 
-           <!--开启Java 5的支持-->
-	       <plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.3</version>
-	            <configuration>
-	               <source>1.8</source>
-	               <target>1.8</target>
-	            </configuration> 
-	       </plugin>
-      </plugins>
-    </build>
-    <!-- 开发者信息 -->
-	<developers>  
-		<developer>
-			<id>yubin</id>
-			<name>yubin</name>
-			<email>yubinpll9110@163.com</email>
-			<roles><role>Project lead</role></roles>
-			<timezone>+8</timezone>
-		</developer>
-	</developers>
-	
+    
 </project>
