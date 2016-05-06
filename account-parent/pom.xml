@@ -8,6 +8,7 @@
   <modules>
    <module>../accout-email</module>
    <module>../account-persist</module>
+   <module>../account-captcha</module>
   </modules>
   <!-- main version setting -->
   <properties>
